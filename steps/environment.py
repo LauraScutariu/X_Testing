@@ -1,6 +1,6 @@
-from pages.create_account import create_account
+from steps.create_account import create_account
 from browser import Browser
-from pages.sign_in_page import sign_in_page
+from steps.sign_in_page import sign_in_page
 
 def before_all(context):
     context.browser = Browser()
