@@ -3,7 +3,7 @@
 >## Final project for ITF Automation Testing Course
 </p>
 </p>
-The scope of the final project for ITF Automation Testing Course is to use all gained knowledge throught the course and apply them in practice .
+The scope of the final project for ITF Automation Testing Course is to use all gained knowledge throught the course and apply them in practice.
 <p>
   </p>
  
