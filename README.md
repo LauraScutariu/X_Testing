@@ -7,7 +7,7 @@ The scope of the final project for ITF Automation Testing Course is to use all g
 <p>
   </p>
  
->### 1. Testing Framework and Tools:
+>### 1. Testing Framework and Tools :
 <p>Testing Framework: <strong>Selenium</strong>
   <p>
 <p>Programming Language: <strong>Python</strong> 
