@@ -13,7 +13,7 @@ class create_account(Browser):
     log_date_of_birth = (By.XPATH, '//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[1]/div/div[2]/div[3]/div[3]/div/div[1]')
     next_button =(By.XPATH,"//*[@id='layers']/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div")
 
-    def log_in(self, log_name, password, log_email, log_date_of_birth, next_button):
+    def test_log_in(self, log_name, password, log_email, log_date_of_birth, next_button):
         button = WebDriverWait(self.chrome, 5).until(
             EC.presence_of_element_located((By.XPATH,'//*[@id="layers"]/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div[2]/div/div/div/div/div')))
         self.chrome.find_element(*self.log_name).send_keys(log_name)
