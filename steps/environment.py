@@ -1,6 +1,6 @@
-from steps.create_account import create_account
+from steps.test_create_account import create_account
 from browser import Browser
-from steps.sign_in_page import sign_in_page
+from steps.test_sign_in_page import sign_in_page
 
 def before_all(context):
     context.browser = Browser()
